@@ -21,4 +21,8 @@ public class gettMapping {
         return "Love to play VolleyBall";
       }
 
+       @DeleteMapping("Anish/delete")
+       public String getDelete() {
+           return  "Anish is deleted";
+       }
 }
