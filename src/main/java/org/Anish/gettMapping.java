@@ -1,9 +1,6 @@
 package org.Anish;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 
@@ -18,4 +15,10 @@ public class gettMapping {
       public String getName(){
         return "I love You Mummy";
       }
+
+      @PatchMapping("Anish/plays")
+      public String getHobby(){
+        return "Love to play VolleyBall";
+      }
+
 }
