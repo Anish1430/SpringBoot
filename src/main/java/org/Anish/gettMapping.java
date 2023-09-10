@@ -2,7 +2,14 @@ package org.Anish;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@RestController  //it is a Combination of @Controller and @ResponseBody.
+                // @RestController annotation is used for Mapping the RESTFUL WEB SERVICES.
+
+
+  /*   WHAT IS WEB SERVICES ??
+  WEB Services is a System of Software that allowing different Machines to Interact with each other Over Internet/Network.
+
+   */
 
 public class gettMapping {
 
